@@ -8,10 +8,13 @@ int main(void)
 {
 	char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	for (char *c = str; *c != '\0'; c++)
+	char *c = str;
+
+	while (c != '\0')
 	{
 		putchar(*c);
+		c++;
 	}
 
-	return (0);
+	return (1);
 }
