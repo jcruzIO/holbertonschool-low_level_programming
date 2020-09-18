@@ -8,9 +8,6 @@ int main(void)
 {
 	int i;
 	int j;
-	int k;
-
-	k = 0;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -27,7 +24,6 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		k++;
 	}
 
 	putchar('\n');
