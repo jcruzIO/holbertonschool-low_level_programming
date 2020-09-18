@@ -19,7 +19,7 @@ int main(void)
 			putchar(i + '0');
 			putchar(j + '0');
 
-			if (k == 99)
+			if (i == 9 && j == 9)
 				continue;
 			else
 			{
