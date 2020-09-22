@@ -4,7 +4,6 @@
  * @n: Number whose last digit will be printed
  *
  * Return: Last digit of number
- * 0 otherwise
  */
 
 int print_last_digit(int n)
@@ -24,4 +23,6 @@ int print_last_digit(int n)
 		_putchar(x + '0');
 		return (x);
 	}
+
+	return (n % 10);
 }
