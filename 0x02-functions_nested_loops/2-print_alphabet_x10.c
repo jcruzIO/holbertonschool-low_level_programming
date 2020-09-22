@@ -1,11 +1,11 @@
 #include "holberton.h"
 /**
- * main - This program prints the alphabet 10 times in lowercase
+ * print_alphabet_x10 - This program prints the alphabet 10 times in lowercase
  *
- * Return: 0 to stop program
+ * Return: void
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
@@ -16,6 +16,4 @@ int main(void)
 			_putchar(ch);
 		_putchar('\n');
 	}
-
-	return (0);
 }
