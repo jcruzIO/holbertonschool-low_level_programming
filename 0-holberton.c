@@ -1,5 +1,5 @@
 /**
- * main - This program prints 'Holberton' to the the screen
+ * main - This program prints 'Holberton' using _putchar
  *
  * Return: 0 to stop program
  */
