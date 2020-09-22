@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * main - This program prints 'Holberton' using _putchar
  *
