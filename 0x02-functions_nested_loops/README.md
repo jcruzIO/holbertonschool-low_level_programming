@@ -1,1 +1,1 @@
-This project explores functions and nested loops. 
+This project explores functions and nested loops.
