@@ -10,7 +10,7 @@ int main(void)
 	char *str = "Holberton";
 	char *ch = str;
 
-	for (; *ch != '\0'; *ch++)
+	for (; *ch != '\0'; ch++)
 		_putchar(*ch);
 
 	_putchar('\n');
