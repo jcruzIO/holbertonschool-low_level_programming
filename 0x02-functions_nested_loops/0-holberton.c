@@ -11,6 +11,4 @@ int main(void)
 
 	for (; *ch != '\0'; *ch++)
 		_putchar(*ch);
-
-	_putchar('\n');
 }
