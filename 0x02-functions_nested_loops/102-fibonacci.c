@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	int first = 1;
 	int second = 2;
-	unsigned long long int sum = 0;
+	unsigned long int sum = 0;
 
 	printf("%d, %d, ", first, second);
 
@@ -20,7 +20,7 @@ int main(void)
 		sum = first + second;
 		second = first;
 		first = sum;
-		printf("%llu, ", sum);
+		printf("%lu, ", sum);
 	}
 	printf("\n");
 
