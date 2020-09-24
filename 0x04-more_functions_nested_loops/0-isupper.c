@@ -1,19 +1,15 @@
 #include "holberton.h"
 /**
- * main - This program prints 'Holberton' using _putchar
+ * main - This function checks for an upppercase character
+ * @c: The character to be checked
  *
- * Return: 0 to stop program
+ * Return: 1 if uppercase; 0 otherwise
  */
 
-int main(void)
+int _isupper(int c)
 {
-	char *str = "Holberton";
-	char *ch = str;
-
-	for (; *ch != '\0'; ch++)
-		_putchar(*ch);
-
-	_putchar('\n');
-
-	return (0);
+	if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
