@@ -20,6 +20,11 @@ int main(void)
 		sum = first + second;
 		second = first;
 		first = sum;
+		if (i == 47)
+		{
+			printf("%lu", sum);
+			continue;
+		}
 		printf("%lu, ", sum);
 	}
 	printf("\n");
