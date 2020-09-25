@@ -4,6 +4,7 @@
  * print_triangle - This function prints a triangle
  * @size: The size of the triangle
  *
+ *
  * Return: void
  */
 
