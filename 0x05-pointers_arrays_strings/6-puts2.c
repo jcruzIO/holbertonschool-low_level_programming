@@ -2,19 +2,19 @@
 
 /**
  * puts2 - This function prints every other character of a string
- * @s: The string to be printed
+ * @str: The string to be printed
  *
  * Return: void
  */
 
-void puts2(char *s)
+void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; i < (int)(sizeof(s) / sizeof(s[0])) + 1; i++)
+	for (i = 0; i < (int)(sizeof(str) / sizeof(str[0])) + 1; i++)
 	{
 		if (i % 2 == 0)
-			_putchar(s[i]);
+			_putchar(str[i]);
 		else
 			continue;
 	}
